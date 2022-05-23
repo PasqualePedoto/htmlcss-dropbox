@@ -38,6 +38,10 @@ li{
     padding-right: 20px;
 }
 
+.pad-t-60{
+    padding-top: 60px;
+}
+
 /* Margin */
 
 .marg-b-20{
@@ -214,8 +218,8 @@ header .flex-container.right-head > div{
 
 /* SECTION */
 
-section{
-    padding-top: 60px;
+section.small-container{
+    margin-top: 100px;
 }
 
 .circle{
@@ -273,6 +277,27 @@ main .offer > ul li{
 .checked-li li::before{
     content: '\2714';
     color: #2075FF;
+}
+
+/* Section Team */
+
+.relative{
+    position: relative;
+    min-height: 200px;
+    padding: 30px
+}
+
+.relative h3{
+    margin: -20px 0 40px 0;
+    font-size: 15px;
+}
+
+.office-button{
+    width: 190px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 
