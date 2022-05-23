@@ -38,6 +38,10 @@ li{
     padding-right: 20px;
 }
 
+.pad-r-30{
+    padding-right: 30px;
+}
+
 .pad-t-60{
     padding-top: 60px;
 }
@@ -60,8 +64,17 @@ li{
     margin-top: 20px;
 }
 
+.marg-t-50{
+    margin-top: 50px;
+}
+
+
 .marg-t-10{
     margin-top: 10px;
+}
+
+.marg-l-20{
+    margin-left: 20px;
 }
 
 
@@ -106,6 +119,10 @@ h2{
     text-align: center;
 }
 
+.linea{
+    width: 60px;
+}
+    
 /*********** Flex Utilities ************/
 
 /* Flexiamo i container */
@@ -124,6 +141,10 @@ h2{
 
 .wrap{
     flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
 }
 
 /* *********** HEADER ********* */
@@ -345,5 +366,112 @@ main .section-65 img{
 
 .block a{
     color: #2075FF;
+    text-decoration: underline;
 }
 
+/* Wall University */
+
+.uni-wall{
+   height: 700px;
+}
+
+.uni-column{
+    flex-basis: 60%;
+}
+
+.agency-column{
+    flex-basis: 40%;
+}
+
+.uni-block{
+    width: calc(100% / 3);
+}
+
+main .uni-column .wrap div{
+    flex-basis: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.four-uni{
+    width: 150px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#design{
+    width: 200px;
+    margin: 20px;
+}
+
+/* Tutti i background del wall */
+
+.bgc-green{
+    background-color: #A2D39B;
+}
+
+.bgc-rossastro{
+    background-color: #61082B;
+}
+
+.bgc-blue{
+    background-color: #0093CE;
+}
+
+.bgc-red{
+    background-color: #FF1C1C;
+}
+
+.bgc-darkred{
+    background-color: #D5001F;
+}
+
+.bgc-lightblue{
+    background-color: #B4D0E7;
+}
+
+.bgc-yellow{
+    background-color: #FFD830;
+}
+
+.bgc-darkblue{
+    background-color: #0D2481;
+}
+
+/* Agency column */
+
+.agency-column{
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+.promotion{
+    width: 700px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Wall Button */
+
+.mess-promo{
+    color: #65163A;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+/* QUi ridimensiono solamente il bottone */
+.wall-button{
+    width: 200px;
+}
+
+/* Qui sovrascrivo il colore e lo stile di button */
+#wall-b{
+    background-color: white;
+    color: black;
+}
