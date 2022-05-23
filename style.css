@@ -16,9 +16,15 @@ a{
     color: black;
 }
 
+li{
+    list-style-type: none;
+}
+
 .border{
     border: 1px solid black;
 }
+
+/* Padding */
 
 .pad-t-50{
     padding-top: 50px;
@@ -32,12 +38,34 @@ a{
     padding-right: 20px;
 }
 
-/* Setting del titolo nel junbodron */
+/* Margin */
+
+.marg-b-20{
+    margin-bottom: 20px;
+}
+
+.marg-t-20{
+    margin-top: 20px;
+}
+
+.marg-t-10{
+    margin-top: 10px;
+}
+
+
+/* Setting dei titoli*/
 h1{
     font-size: 50px;
     padding-right: 50px;
 }
 
+h2{
+    margin: 30px 0;
+}
+
+.inline{
+    display: inline-block;
+}
 /* Divisore di sezione */
 
 .section-65{
@@ -53,12 +81,12 @@ h1{
 /* Container */
 
 .big-container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 .small-container{
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -118,7 +146,8 @@ header .flex-container div{
     min-width: 50px;
 }
 
-header .init-button a, main .jumbo-button a{
+/* colorazione scritta nel button 'iniza' */
+header .init-button a{
     color: white;
 }
 
@@ -145,7 +174,7 @@ header .flex-container.right-head > div{
 
 .jumbodron{
     background-color: #B4D0E7;
-    height: 500px;
+    height: 520px;
     padding: 50px;
 }
 
@@ -162,9 +191,7 @@ header .flex-container.right-head > div{
 
 /* Modellazione bottone del jumbodron */
 
-.jumbo-button{
-    margin-top: 30px;
-    width: 150px;
+.button{
     height: 40px;
     background-color: #2075FF;
 
@@ -174,11 +201,80 @@ header .flex-container.right-head > div{
     color: white;
 }
 
+.jumbo-button{
+    margin-top: 30px;
+    width: 150px;
+}
+
 /* dimensionamento freccetta nel jumbodron */
 
 .fa-arrow-down{
     font-size: 30px;
 }
+
+/* SECTION */
+
+section{
+    padding-top: 60px;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.checkbox{
+    height: 30px;
+    line-height: 30px;
+    margin: 0 30px 30px 0;
+}
+
+/* Offerte */
+
+.card{
+    width: 30%;
+    min-height: 500px;
+}
+
+.label{
+    height: 30px;
+    padding: 3px;
+}
+
+.offer{
+    min-height: 800px;
+    padding-left: 20px;
+}
+
+main .offer > ul li{
+    margin-bottom: 10px;
+}
+
+.button-offer{
+    width: 150px;
+}
+
+.buy-packet{
+    display: block;
+    margin: 30px 0 60px 0;
+    font-size: 12px;
+}
+
+.buy-packet a{
+    text-decoration: underline;
+    color: #2075FF;
+}
+
+.checked-li li::before{
+    content: '\2714';
+    color: #2075FF;
+}
+
 
 
 
