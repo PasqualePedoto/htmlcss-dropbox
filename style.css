@@ -1,0 +1,112 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    padding-top: 60px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.border{
+    border: 1px solid black;
+}
+
+/* ***********Generics*********** */
+
+/* Container */
+
+.big-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.small-container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+/*********** Flex Utilities ************/
+
+/* Flexiamo i container */
+.flex-container{
+    display: flex;
+}
+
+.content-between{
+    justify-content: space-between;
+}
+
+.content-center{
+    align-items: center;
+    justify-content: center;
+}
+
+/* *********** HEADER ********* */
+
+header{
+    background-color: white;
+    min-height: 60px;
+    max-width: 100%;
+    padding: 20px;
+
+    /* cambio posizione */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+/* modelliamo il logo nell'header */
+
+header img{
+    height: 20px;
+    display: block;
+}
+
+/* padding tra i link dell'header */
+
+header .flex-container div{
+    font-size: 12px;
+}
+
+/* Setting del bottone 'Inizia' */
+
+.init-button{
+    background-color: #2075FF;
+    min-height: 20px;
+    min-width: 50px;
+}
+
+header .init-button a{
+    color: white;
+}
+
+header .init-button div{
+    line-height: 20px;
+    text-align: center;
+    margin-right: 0;
+    padding: 2px;
+}
+
+/* Spaziature nell'header */
+
+header .flex-container.left-head > div{
+    margin-right: 20px;
+}
+
+header .flex-container.right-head > div{
+    margin-left: 20px;
+}
