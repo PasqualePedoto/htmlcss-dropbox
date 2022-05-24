@@ -42,6 +42,10 @@ li{
     padding-right: 30px;
 }
 
+.pad-r-10{
+    padding-right: 10px;
+}
+
 .pad-t-60{
     padding-top: 60px;
 }
@@ -52,6 +56,10 @@ li{
 
 .pad-b-20{
     padding-bottom: 20px;
+}
+
+.pad-b-50{
+    padding-bottom: 50px;
 }
 
 /* Margin */
@@ -75,6 +83,10 @@ li{
 
 .marg-l-20{
     margin-left: 20px;
+}
+
+.marg-t-100{
+    margin-top: 100px;
 }
 
 
@@ -276,7 +288,7 @@ section.small-container{
 
 .card{
     width: 30%;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .label{
@@ -285,7 +297,7 @@ section.small-container{
 }
 
 .offer{
-    min-height: 800px;
+    min-height: 1000px;
     padding-left: 20px;
 }
 
@@ -441,6 +453,15 @@ main .uni-column .wrap div{
     background-color: #0D2481;
 }
 
+.color-question{
+    color: #333;
+    font-size: 15px;
+}
+
+.white{
+    color: white;
+}
+
 /* Agency column */
 
 .agency-column{
@@ -474,4 +495,23 @@ main .uni-column .wrap div{
 #wall-b{
     background-color: white;
     color: black;
+}
+
+/************* FOOTER **************/
+.footer{
+    background-color: #000000;
+    min-height: 300px;
+}
+
+.column-link{
+    flex-basis: 17%;
+}
+
+footer ul a{
+    color: white;
+    font-size: 12px;
+}
+
+footer li{
+    margin-top: 10px;
 }
