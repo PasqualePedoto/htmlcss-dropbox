@@ -283,6 +283,12 @@ section.small-container{
     vertical-align: middle;
 }
 
+/* Overview del circle */
+
+.circle:active{
+    border: 3px solid dodgerblue;
+}
+
 .checkbox{
     height: 30px;
     line-height: 30px;
