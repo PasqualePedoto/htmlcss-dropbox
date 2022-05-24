@@ -181,6 +181,8 @@ header{
     right: 0;
     left: 0;
     z-index: 5;
+
+    box-shadow: 0 1px 3px #dedede;
 }
 
 header nav{
@@ -447,6 +449,8 @@ main .uni-column .wrap div{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    
+    filter: invert(1);
 }
 
 #design{
