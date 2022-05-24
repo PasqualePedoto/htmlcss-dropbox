@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -22,6 +23,10 @@ li{
 
 .border{
     border: 1px solid black;
+}
+
+.disp-block{
+    display: block;
 }
 
 /* Padding */
@@ -243,9 +248,10 @@ header nav li:not(#init-btn){
     align-items: center;
 }
 
-/* Side effects in hover */
+/* Side effects in hover escludendo però il
+bottone e il logo di Dropbox */
 
-nav:hover li:hover:not(#init-btn){
+nav:hover li:hover:not(.not-today){
     border-bottom: 2px solid black;
 }
 
@@ -534,6 +540,20 @@ main .uni-column .wrap div{
 #wall-b{
     background-color: white;
     color: black;
+}
+
+/* Hover on question&answer */
+
+.answer{
+    display: none;
+    font-size: 12px;
+    padding: 0 50px 20px 0;
+
+    transition: display 2s linear;
+}
+
+.question:hover .answer{
+    display: block;
 }
 
 /************* FOOTER **************/
