@@ -468,6 +468,13 @@ main .uni-column .wrap div{
 
 .bgc-green{
     background-color: #A2D39B;
+    border: 10px solid transparent;
+
+    transition: border 1s linear;
+}
+
+.bgc-green:hover{
+    border: 10px solid #eee;
 }
 
 .bgc-rossastro{
@@ -543,6 +550,11 @@ main .uni-column .wrap div{
 }
 
 /* Hover on question&answer */
+
+/* Cambiamento del caret da giu a sopra */
+.question:hover .fa-caret-down{
+    transform: rotate(180deg);
+}
 
 .answer{
     display: none;
