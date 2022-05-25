@@ -25,6 +25,12 @@ li{
     border: 1px solid black;
 }
 
+.an-border{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 .disp-block{
     display: block;
 }
@@ -101,7 +107,6 @@ li{
 .marg-t-100{
     margin-top: 100px;
 }
-
 
 /* Setting dei titoli*/
 h1{
