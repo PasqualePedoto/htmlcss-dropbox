@@ -466,43 +466,74 @@ main .uni-column .wrap div{
 
 /* Tutti i background del wall */
 
-.bgc-green{
-    background-color: #A2D39B;
-    border: 10px solid transparent;
 
+div[class^="bgc-"]{
+    border: 10px solid transparent;
     transition: border 1s linear;
 }
 
+.bgc-green{
+    background-color: #A2D39B;
+}
+
 .bgc-green:hover{
-    border: 10px solid #eee;
+    border: 10px solid rgb(120,180,120);
 }
 
 .bgc-rossastro{
     background-color: #61082B;
 }
 
+.bgc-rossastro:hover{
+    border: 10px solid rgb(130,48,83);
+}
+
 .bgc-blue{
     background-color: #0093CE;
+}
+
+.bgc-blue:hover{
+    border: 10px solid rgb(0,100,160);
 }
 
 .bgc-red{
     background-color: #FF1C1C;
 }
 
+.bgc-red:hover{
+    border: 10px solid rgb(390,68,68);
+}
+
 .bgc-darkred{
     background-color: #D5001F;
+}
+
+.bgc-darkred:hover{
+    border: 10px solid rgb(160,40,31);
 }
 
 .bgc-lightblue{
     background-color: #B4D0E7;
 }
 
+.bgc-lightblue:hover{
+    border: 10px solid rgb(140,168,191);
+}
+
 .bgc-yellow{
     background-color: #FFD830;
 }
 
+.bgc-yellow:hover{
+    border: 10px solid rgb(215,166,8);
+}
+
 .bgc-darkblue{
     background-color: #0D2481;
+}
+
+.bgc-darkblue:hover{
+    border: 10px solid rgb(53,76,167);
 }
 
 .color-question{
